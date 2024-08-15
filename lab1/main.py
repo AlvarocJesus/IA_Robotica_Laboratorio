@@ -3,7 +3,7 @@ from chatbot import ChatBot
 myChatBot = ChatBot()
 
 # Criar modelo -> Mais lento
-# myChatBot.createModel()
+myChatBot.createModel()
 
 # Apenas carregar o modelo -> Mais rapido!!!!
 myChatBot.loadModel()

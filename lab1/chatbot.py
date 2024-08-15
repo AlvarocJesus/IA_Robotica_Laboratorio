@@ -1,3 +1,9 @@
+# this class was based on Jere Xu article available at:
+# https://towardsdatascience.com/how-to-create-a-chatbot-with-python-deep-learning-in-less-than-an-hour-56a063bdfc44
+# thanks to Jere Xu ;)
+
+
+
 import numpy as np
 import json
 import pickle

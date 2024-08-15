@@ -1,2 +1,9 @@
+# Ignorar pastas de configuracao
 */__pycache__/
+*/Lib/
+*/chatbot_model.h5
+*/classes.pkl
+*/words.pkl
+
+# Ignorar todas as pastas de venvs
 lab1/lab_1/
