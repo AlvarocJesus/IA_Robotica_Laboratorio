@@ -28,7 +28,7 @@ class ChatBot:
     lemmatizer = WordNetLemmatizer()
 
     def createModel(self):
-        nltk.download('punkt')
+        nltk.download('punkt_tab')
         nltk.download('wordnet')
         nltk.download('omw-1.4')
 
