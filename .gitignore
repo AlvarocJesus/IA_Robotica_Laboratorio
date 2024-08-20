@@ -1,7 +1,5 @@
 # Ignorar pastas de configuracao
 */__pycache__/
-*/Lib/
-*/chatbot_model.h5
 */classes.pkl
 */words.pkl
 
