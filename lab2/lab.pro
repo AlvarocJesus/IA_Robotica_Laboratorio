@@ -79,7 +79,5 @@ tio(X,Y) :- progenitor(A, Y), irma(A,X), X\==Y, sexo(X,masculino).
 tia(X,Y) :- progenitor(A,Y), irma(A,X), X\==Y, sexo(X,feminino).
 tia(X,Y) :- progenitor(A,Y), irmao(A,X), X\==Y, sexo(X,feminino).
 
-tio(A,X), progenitor(A,Y), sexo(Y, masculino).
-
 primo(X,Y) :- progenitor(A,X), (irmao(A,B) ; irma(A,B)), progenitor(B,Y), sexo(X,masculino).
 prima(X,Y) :- progenitor(A,X), (irmao(A,B) ; irma(A,B)), progenitor(B,Y), sexo(X,feminino).
