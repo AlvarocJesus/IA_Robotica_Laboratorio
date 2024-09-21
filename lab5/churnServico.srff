@@ -1,0 +1,36 @@
+@relation churn_prediction
+
+@attribute customer_id numeric
+@attribute tenure numeric
+@attribute contract_length {month-to-month, one-year, two-year}
+@attribute monthly_charges numeric
+@attribute total_charges numeric
+@attribute payment_method {electronic-check, mailed-check, bank-transfer, credit-card}
+@attribute tech_support {yes, no}
+@attribute online_backup {yes, no}
+@attribute device_protection {yes, no}
+@attribute streaming_tv {yes, no}
+@attribute streaming_movies {yes, no}
+@attribute churn {yes, no}
+
+@data
+1, 12, month-to-month, 29.85, 29.85, electronic-check, no, no, no, no, no, yes
+2, 24, one-year, 56.95, 1889.50, mailed-check, yes, yes, no, yes, yes, no
+3, 3, month-to-month, 42.30, 128.10, electronic-check, no, no, no, no, yes, yes
+4, 37, one-year, 64.70, 2560.00, bank-transfer, no, yes, yes, yes, yes, no
+5, 5, month-to-month, 80.90, 404.20, credit-card, yes, no, yes, no, no, yes
+6, 72, two-year, 89.10, 6096.50, mailed-check, yes, yes, yes, yes, yes, no
+7, 10, month-to-month, 70.70, 707.00, electronic-check, yes, yes, yes, no, no, yes
+8, 45, one-year, 53.80, 2430.50, bank-transfer, no, no, no, yes, yes, no
+9, 13, month-to-month, 58.50, 760.00, credit-card, no, no, yes, no, yes, yes
+10, 2, month-to-month, 91.60, 183.20, electronic-check, yes, yes, no, yes, no, yes
+11, 67, two-year, 109.50, 7217.20, bank-transfer, yes, yes, yes, yes, yes, no
+12, 22, one-year, 49.95, 1098.90, credit-card, no, no, no, yes, no, no
+13, 29, month-to-month, 60.50, 1754.50, electronic-check, yes, no, no, no, yes, yes
+14, 1, month-to-month, 89.10, 89.10, electronic-check, yes, yes, yes, yes, yes, yes
+15, 8, month-to-month, 29.75, 238.00, mailed-check, no, no, no, no, no, yes
+16, 72, two-year, 104.00, 7488.00, credit-card, yes, yes, yes, yes, yes, no
+17, 54, one-year, 73.50, 3969.00, bank-transfer, yes, no, no, yes, yes, no
+18, 12, month-to-month, 92.75, 1113.00, electronic-check, yes, yes, yes, no, yes, yes
+19, 3, month-to-month, 79.85, 239.55, electronic-check, no, no, no, yes, yes, yes
+20, 41, one-year, 61.85, 2467.90, mailed-check, yes, yes, no, yes, no, no
