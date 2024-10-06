@@ -4,8 +4,7 @@
 */words.pkl
 
 # Ignorar todas as pastas de venvs
-lab1/lab_1/
-lab1/lab1/
+lab_1/
 
 Scripts/
 pyvenv.cfg
