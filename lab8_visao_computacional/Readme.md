@@ -9,4 +9,4 @@ Relatório deve conter:
 - Expliação de cada passo do processo
 - A imagem final e todas as imagens intermediárias (como no código fonte de exemplo!)
 - A imagem final deve estar destacada (em tamanho grande)
-- Link  do GIT para o código fonte utilizado para tratar cada uma das imagens
+- Link do GIT para o código fonte utilizado para tratar cada uma das imagens
