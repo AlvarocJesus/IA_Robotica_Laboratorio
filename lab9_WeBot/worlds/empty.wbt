@@ -1,0 +1,56 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/adept/pioneer3/protos/Pioneer3at.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/advertising_board/protos/AdvertisingBoard.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.24866886084829273 0.25054286338351706 0.9356238941219921 1.6298072628017226
+  position -0.09858324898773904 -6.027765697221839 3.1166170699013738
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 4 4
+  wallHeight 0.3
+}
+AdvertisingBoard {
+  translation -1.55938 -0.0835347 -1.12799e-13
+  displayWidth 1
+  displayHeight 0.5
+}
+AdvertisingBoard {
+  translation 1.57127 -0.0515817 3.46389e-13
+  name "advertising board(1)"
+  displayWidth 1
+  displayHeight 0.5
+}
+Pioneer3at {
+  hidden position_0_0 20.980466543039228
+  hidden position_0_1 20.980466567931206
+  hidden position_0_2 20.980832935317267
+  hidden position_0_3 20.980832870047468
+  hidden linearVelocity_0 0.21999675161422627 -2.7450853823497428e-06 5.864113149723419e-06
+  hidden angularVelocity_0 4.32609316985332e-07 -1.7975949264654397e-05 -8.514694535316033e-07
+  hidden rotation_1 0.2664206722341873 -0.26641476523629365 0.9263062119355426 4.635903891767756
+  hidden linearVelocity_1 0.2200066459836964 -2.6400534880423184e-06 3.6414054097991527e-06
+  hidden angularVelocity_1 2.4659789090748105e-05 1.9999838762097073 -8.319542605013672e-07
+  hidden rotation_2 0.2664206829446963 -0.2664147759467131 0.9263062057746047 4.635903885136166
+  hidden linearVelocity_2 0.22000643675898676 -2.6400509929280665e-06 3.4742119261710778e-06
+  hidden angularVelocity_2 2.465978851185769e-05 1.9999838312678675 -8.319541206435251e-07
+  hidden rotation_3 0.2665783084914336 -0.2665724001735169 0.9262155045709268 4.6358062505760005
+  hidden linearVelocity_3 0.2199896126331056 -2.786146623699184e-06 8.578621384700706e-06
+  hidden angularVelocity_3 2.4669265543001772e-05 1.999980217415273 -8.273939938373577e-07
+  hidden rotation_4 0.2665782804124634 -0.26657237209478185 0.9262155207337518 4.635806267975126
+  hidden linearVelocity_4 0.21998939366414272 -2.7861440184313677e-06 8.411395131170038e-06
+  hidden angularVelocity_4 2.4669264936552657e-05 1.999980170380349 -8.273938502094355e-07
+  translation -0.5173497673066239 -0.09494959491588238 -0.0023896691164626283
+  rotation 0.0005295710809507492 0.9732424014708072 -0.22978021571450918 5.276434119410661e-05
+  controller "my_controller_final"
+}
