@@ -5,6 +5,6 @@ sceneTreePerspectives: 000000ff00000001000000030000001e00000283000000fa010000000
 maximizedDockId: -1
 centralWidgetVisible: 1
 orthographicViewHeight: 1
-textFiles: 1 "../../../../../../../../Program Files/Webots/projects/robots/clearpath/moose/controllers/moose_path_following/moose_path_following.c" "controllers/my_controller_final/my_controller_final.cpp"
+textFiles: 1 "../../../../../../../Program Files/Webots/projects/robots/clearpath/moose/controllers/moose_path_following/moose_path_following.c" "my_controller_final.cpp"
 robotWindow: Pioneer 3-AT
 consoles: Console:All:All
