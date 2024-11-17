@@ -10,3 +10,11 @@ No relatório incluir link para o código fonte e um vídeo de até 3 min com o 
 Podem utilizar o controlador o default do WeBots como "código base".
 
 [CC7711_2024s2.wbt](./worlds/CC7711_2024s2.wbt)
+
+
+## Video de demonstração
+
+
+
+https://github.com/user-attachments/assets/40756996-3012-4cdf-9784-0307767c3c67
+
