@@ -1,0 +1,125 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.36718330676948197 0.32513988830549306 -0.8714702933907271 1.715773194375819
+  position -0.06009124495066498 0.9538504633779401 0.9252536911019155
+  followType "None"
+}
+Background {
+  skyColor [
+    0.4 0.7 1
+  ]
+}
+DirectionalLight {
+  ambientIntensity 1
+  direction 0.1 -0.5 0.3
+}
+CircleArena {
+  radius 0.5
+  floorAppearance Parquetry {
+    type "chequered"
+    colorOverride 0.9 1 0.8
+  }
+  floorTileSize 0.25 0.25
+}
+WoodenBox {
+  translation 0.2705422917140567 -0.17556843106684994 0.04985167405959972
+  rotation 0.00011423066824300593 -6.303127945421365e-05 0.9999999914892059 -3.108624288128475
+  size 0.1 0.1 0.1
+  mass 0.02
+}
+WoodenBox {
+  translation -0.406391 0.022764800000000005 0.049607600000000016
+  rotation -7.152368036475994e-17 9.625859755984044e-17 1 0.10151682228017164
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+  mass 1
+}
+WoodenBox {
+  translation -0.06097349999999999 -0.05725650000000001 0.04960760000000001
+  rotation -5.7592950806838e-16 4.4835280381972e-16 1 0.13911400000000004
+  name "wooden box(7)"
+  size 0.1 0.1 0.1
+  mass 1
+}
+WoodenBox {
+  translation -0.15420009275186616 -0.3631671637492994 0.0496076
+  rotation 1.2073357312613014e-17 1.2712285801451479e-17 1 1.944627374355449
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+  mass 1
+}
+WoodenBox {
+  translation -0.047292499999999994 0.206529 0.0496076
+  rotation -9.396753798338856e-16 7.617642330531469e-16 1 0.01730530717958611
+  name "wooden box(6)"
+  size 0.1 0.1 0.1
+  mass 1
+}
+WoodenBox {
+  translation 0.017162 -0.163528 0.0496076
+  rotation 6.28018290084253e-16 9.867089444633072e-16 1 0.08408530717958664
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+  mass 1
+}
+WoodenBox {
+  translation 0.306031 0.182746 0.0496076
+  rotation -1.7876321651406464e-17 7.888628102522512e-17 1 1.5679235897627228
+  name "wooden box(9)"
+  size 0.1 0.1 0.1
+  mass 1
+}
+WoodenBox {
+  translation -0.335633 -0.189121 0.04960760000000001
+  rotation 6.285225077876652e-17 -7.03232324008993e-18 1 1.7623535348619979
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+  mass 1
+}
+WoodenBox {
+  translation -0.24657550365974812 0.17965489428129175 0.04946376416132794
+  rotation -0.000871585235944223 -0.0013704503328364564 -0.9999986811016611 0.16352037698327682
+  name "wooden box(8)"
+  size 0.1 0.1 0.1
+  mass 1
+}
+WoodenBox {
+  translation 0.0658094 0.204909 0.0496076
+  rotation -6.851954427032568e-18 3.272695227523164e-17 1 1.4241653071795861
+  name "wooden box(5)"
+  size 0.1 0.1 0.1
+  mass 1
+}
+E-puck {
+  hidden position_0_0 6571.167634860734
+  hidden position_0_1 4268.0377878345835
+  hidden translation_1 0 0.026 0.02
+  hidden rotation_1 0 -1 0 1.0441964491131306
+  hidden translation_2 0 -0.026 0.02
+  hidden rotation_2 0 -1 0 4.528221047535335
+  translation 0.2948207427018235 -0.055177670253168984 -0.00018555586731150604
+  rotation 0.0004473338253323326 -1.0207574472244283e-05 0.9999998998941221 3.0972116583807034
+  controller "control"
+  groundSensorsSlot [
+    DistanceSensor {
+      translation -0.06 0 2.20392e-07
+      rotation 0 1 0 1.5708
+      name "ir1"
+      type "infra-red"
+    }
+    DistanceSensor {
+      translation -0.01 -0.005 -6.32678e-08
+      rotation 0 1 0 1.5708
+      name "ir0"
+      type "infra-red"
+    }
+  ]
+}

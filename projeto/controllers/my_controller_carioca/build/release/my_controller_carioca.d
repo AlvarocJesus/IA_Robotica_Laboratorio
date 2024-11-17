@@ -1,4 +1,4 @@
-build/release/controller_projeto.o: controller_projeto.cpp \
+build/release/my_controller_carioca.o: my_controller_carioca.cpp \
  C:\Program\ Files\Webots/include/controller/cpp/webots/DistanceSensor.hpp \
  C:\Program\ Files\Webots/include/controller/cpp/webots/Device.hpp \
  C:/Program\ Files/Webots/include/controller/c/webots/types.h \
@@ -7,4 +7,5 @@ build/release/controller_projeto.o: controller_projeto.cpp \
  C:\Program\ Files\Webots/include/controller/cpp/webots/PositionSensor.hpp \
  C:\Program\ Files\Webots/include/controller/cpp/webots/Accelerometer.hpp \
  C:\Program\ Files\Webots/include/controller/cpp/webots/LED.hpp \
+ C:\Program\ Files\Webots/include/controller/cpp/webots/LightSensor.hpp \
  C:\Program\ Files\Webots/include/controller/cpp/webots/utils/AnsiCodes.hpp
